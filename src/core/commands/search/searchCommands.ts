@@ -7,6 +7,7 @@ import codenavCommand from "./codenavCommand";
 import doubanCommand from "./doubanCommand";
 import douyinCommand from "./douyinCommand";
 import githubCommand from "./githubCommand";
+import giteeCommand from "./giteeCommand";
 import googleCommand from "./googleCommand";
 import wangyiyunCommand from "./wangyiyunCommand";
 import zhihuCommand from "./zhihuCommand";
@@ -29,6 +30,7 @@ const fromDict: Record<string, CommandType> = {
   duckduckgo: duckduckgoCommand,
   fsearch: fsearchCommand,
   github: githubCommand,
+  gitee:giteeCommand,
   google: googleCommand,
   sogou: sogouCommand,
   wangyiyun: wangyiyunCommand,
