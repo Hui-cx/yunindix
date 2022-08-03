@@ -44,7 +44,7 @@ const commandList: CommandType[] = [
   infoCommand,
   pingCommand,
   musicCommand,
-  ddosCommand,
+  // ddosCommand,
   moyuCommand,
   ikunCommand,
   ikuntestCommand,
