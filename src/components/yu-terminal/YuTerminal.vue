@@ -217,6 +217,7 @@ const mainStyle = computed(() => {
     bottom: 0,
     left: 0,
     right: 0,
+    backgroundSize:'cover'
   };
   return props.fullScreen
     ? fullScreenStyle
