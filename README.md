@@ -1,20 +1,8 @@
 # YuIndex - 极客范儿的浏览器主页
 
-> Coolest browser index for geeks! 
-> 
-> 前后端全栈项目 By [程序员鱼皮](https://docs.qq.com/doc/DUFFRVWladXVjeUxW)
-
-
-
-在线体验：[https://yuindex.com](https://yuindex.com)
-
-视频演示：[https://www.bilibili.com/video/BV19B4y1Y7m8/](https://www.bilibili.com/video/BV19B4y1Y7m8/)
-
 ![YuIndex 定制你的最强主页](./doc/assets/docpic1.png)
 
 ![YuIndex 用命令来控制网页](./doc/assets/docpic2.png)
-
-⭐️ 我在自己的 [编程知识星球](https://yupi.icu) 内花 4 个小时直播给大家详细解读了这个项目的创作思路 + 技术选型 + 系统设计 + 源码解读 + 思路扩展 + 简历亮点分享，如果你希望把这个项目写到简历上、或者深入学习，[欢迎加入我的星球观看](https://yupi.icu/%E6%98%9F%E7%90%83%E9%A1%B9%E7%9B%AE/Web%20%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE.html) 。
 
 
 ## YuIndex 是什么？
@@ -37,12 +25,12 @@
 
 ### 1 分钟上手使用
 
-请打开网站：https://yuindex.com
+请打开网站：https://cxh.ac.cn/dist/#/
 
 然后在网站内依次输入以下命令：
 
 ```bash
-baidu 程序员鱼皮
+baidu 程序员
 github yuindex
 goto yupi.icu
 todo
@@ -160,9 +148,7 @@ history
 主要技术：
 
 - Node.js
-- Express、express-session
 - MySQL
-- Sequelize（ORM 框架）
 - Redis
 
 依赖库：
@@ -174,8 +160,6 @@ history
 
 - 百度翻译 API
 - 新浪壁纸 API
-
-[点击了解后端详情](server/README.md)
 
 
 
@@ -286,12 +270,6 @@ history
 
 
 
-### 更多讲解
-
-如果你希望获取该项目的完整详细讲解，欢迎加入 [鱼皮的编程知识星球](https://yupi.icu/) ，这是鱼皮的编程学习圈子，我会在圈子内带大家从 0 到 1 分析解读这个项目，让你也能独立做一个，项目经历 + 1。
-
-
-
 ## 贡献指南
 
 欢迎各位朋友贡献代码，还请先阅读以下指南。
@@ -307,8 +285,4 @@ history
 5. 测试验证通过后，可以发起 PR 等鱼皮合并
 
 
-
-## 致谢
-
-摸鱼命令的实现依赖于 https://haiyong.site/moyu ，感谢大佬的开源分享。
 
